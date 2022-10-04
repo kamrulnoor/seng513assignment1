@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+
+}
+.home{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0,0.1)),url(home.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%;
+  margin:auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.header {
+  overflow: hidden;
+  background-color: white;
+  color: black;
+
+
+}
+.header a{
+  float: left;
+  text-align: center;
+  padding: 10px 0;
+}
+.info{
+  width: 100%;
+  position: absolute;
+
+  top: 20%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.info h1{
+  font-size: 50px;
+  margin-top: 50px;
+}
+.info p{
+  margin: 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.messi{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0,0.1)),url(messi.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.table-messi{
+  font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+ position: fixed;
+ top: 55%;
+ transform: translateX(42%);
+}
+
+td, th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ background-color: #dddddd;
+ padding: 20px;
+}
+
+tr:nth-child(even) {
+ background-color: #dddddd;
+}
+.CRISTIANO-RONALDO{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0,0.1)),url(CR7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.info-CR7{
+  text-align: fixed;
+  color: black;
+  background-color: #dddddd;
+  width: 20%;
+  margin: auto;
+  padding: 3%;
+  transform: translateY(100%);
+}
+.Haaland{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0,0.1)),url(h.jpg);
+background-size: cover;
+background-position: center;
+}
+.video-Haaland{
+  width: 700px;
+  height: 450px;
+  position: fixed;
+  top: 45%;
+  border: transparent;
+  transform: translateX(90%);
+}
+.info-Haaland{
+  text-align: center;
+  position: flex;
+  color: #fff;
+
+}
+.Ronaldinho{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0,0.1)),url(r.jpg);
+background-size: cover;
+background-position: center;
+}
+.video-Ronaldinho{
+  width: 700px;
+  height: 450px;
+  position: fixed;
+  top: 45%;
+  border: transparent;
+  transform: translateX(90%);
+}
+.info-Ronaldinho{
+  text-align: center;
+  position: flex;
+  color: #fff;
